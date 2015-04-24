@@ -1,3 +1,4 @@
 cinnamon/spices.cache/*
 cinnamon/**/*.log
-connamon/**/*.log.last
+cinnamon/**/*.log.last
+cinnamon/backgrounds/**/*
