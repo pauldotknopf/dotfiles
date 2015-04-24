@@ -5,7 +5,8 @@
     {
         "link": {
             "~/.dotfiles": "",
-            "~/.cinnamon": "cinnamon/"
+            "~/.cinnamon": "cinnamon/",
+            "~/.i3" : "i3/"
         }
     },
     {
