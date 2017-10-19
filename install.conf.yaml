@@ -1,0 +1,12 @@
+
+- clean: ['~']
+
+- link:
+    ~/.gitconfig: gitconfig
+    ~/.zshrc: zshrc
+    ~/.config/i3/config:
+      create: true
+      path: config/i3/config
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
