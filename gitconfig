@@ -2,3 +2,5 @@
 [user]
 	email = pauldotknopf@gmail.com
 	name = Paul Knopf
+[core]
+	editor = nano
