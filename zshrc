@@ -1,12 +1,10 @@
-# Lines configured by zsh-newuser-install
-HISTFILE=~/.histfile
-HISTSIZE=1000
-SAVEHIST=1000
-bindkey -e
-# End of lines configured by zsh-newuser-install
-# The following lines were added by compinstall
-zstyle :compinstall filename '/home/pknopf/.zshrc'
+export LANG="en_US.UTF-8"
 
-autoload -Uz compinit
-compinit
-# End of lines added by compinstall
+source /usr/share/zsh/share/antigen.zsh
+
+antigen bundle zsh-users/zsh-syntax-highlighting
+
+antigen theme refined
+
+antigen apply
+
