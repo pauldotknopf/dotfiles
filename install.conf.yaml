@@ -10,6 +10,9 @@
     ~/.config/alacritty/alacritty.yml:
       create: true
       path: config/alacritty/alacritty.yml
+    ~/.config/autorandr:
+      create: true
+      path: config/autorandr
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
