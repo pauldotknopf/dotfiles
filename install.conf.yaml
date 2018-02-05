@@ -13,6 +13,8 @@
     ~/.config/autorandr:
       create: true
       path: config/autorandr
+    ~/.tmux.conf:
+      path: tmux.conf
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
