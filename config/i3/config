@@ -9,7 +9,7 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
-exec feh --bg-scale --no-xinerama /usr/share/wallpapers/frosted.jpg
+exec autorandr --load three && feh --bg-scale --no-xinerama /usr/share/wallpapers/frosted.jpg
 exec compton
 
 set $mod Mod4
