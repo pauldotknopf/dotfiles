@@ -1,4 +1,3 @@
-
 export LANG="en_US.UTF-8"
 export TERM="xterm-256color"
 
@@ -10,3 +9,8 @@ antigen theme bhilburn/powerlevel9k powerlevel9k
 antigen apply
 
 if [ "$TMUX" = "" ]; then exec tmux; fi
+
+# Logout of the xsession.
+# This will logout of all xsessions.
+# To logout of current session: "pkill -15 -t tty"$XDG_VTNR" Xorg"
+alias logout='pkill -15 Xorg' 
