@@ -152,4 +152,7 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
+# Gaps
+gaps inner 8
+
 exec_always --no-startup-id "$HOME/.config/i3/startup"
