@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-kilall polybar
+killall polybar
 polybar example -r &
