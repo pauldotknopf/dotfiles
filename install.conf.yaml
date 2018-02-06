@@ -4,6 +4,7 @@
 - link:
     ~/.gitconfig: gitconfig
     ~/.zshrc: zshrc
+    ~/.zprofile: zprofile
     ~/.config/i3/config:
       create: true
       path: config/i3/config
@@ -21,6 +22,9 @@
     ~/.config/polybar/config:
       create: true
       path: config/polybar/config
+    ~/.zsh:
+      create: true
+      path: zsh
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
