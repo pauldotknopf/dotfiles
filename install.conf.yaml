@@ -3,6 +3,7 @@
 
 - link:
     ~/.gitconfig: gitconfig
+    ~/.xinitrc: xinitrc
     ~/.zshrc: zshrc
     ~/.zprofile: zprofile
     ~/.config/i3/config:
