@@ -1,3 +1,4 @@
+HISTFILE=~/.zsh_history
 export LANG="en_US.UTF-8"
 export TERM="xterm-256color"
 
