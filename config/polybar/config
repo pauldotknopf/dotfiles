@@ -75,14 +75,10 @@ label = %title:0:30:...%
 
 [module/xkeyboard]
 type = internal/xkeyboard
-blacklist-0 = num lock
 
-format-prefix = " "
+format = <label-indicator>
 format-prefix-foreground = ${colors.foreground-alt}
 format-prefix-underline = ${colors.secondary}
-
-label-layout = %layout%
-label-layout-underline = ${colors.secondary}
 
 label-indicator-padding = 2
 label-indicator-margin = 1
@@ -200,7 +196,7 @@ format-underline = #0a6cf5
 label = %date% %time%
 
 [module/volume]
-type = internal/volume
+type = internal/pulseaudio
 
 ; Soundcard to be used
 ; Usually in the format hw:#
@@ -229,6 +225,11 @@ headphone-id = 9
 ; Use volume mapping (similar to amixer -M and alsamixer), where the increase in volume is linear to the ear
 ; Default: false
 mapped = true
+
+format-volume = volume <label-volume>
+
+label-muted = muted
+label-muted-foreground = #66
 
 [module/temperature]
 type = internal/temperature
