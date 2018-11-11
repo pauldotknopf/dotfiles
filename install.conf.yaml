@@ -4,5 +4,8 @@
 - link:
     ~/.gitconfig: gitconfig
     ~/.zshrc: zshrc
+    ~/.config/Code/User/settings.json: config/Code/User/settings.json
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
+  - command: dconf load / < settings.dconf
+    description: Installing dconf settings
