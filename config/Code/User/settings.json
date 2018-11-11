@@ -1,3 +1,4 @@
 {
-    "terminal.integrated.fontFamily": "Hack"
+    "terminal.integrated.fontFamily": "Hack",
+    "editor.fontFamily": "Hack"
 }
