@@ -3,29 +3,6 @@
 
 - link:
     ~/.gitconfig: gitconfig
-    ~/.xinitrc: xinitrc
     ~/.zshrc: zshrc
-    ~/.zprofile: zprofile
-    ~/.config/i3/config:
-      create: true
-      path: config/i3/config
-    ~/.config/i3/startup:
-      create: true
-      path: config/i3/startup
-    ~/.config/alacritty/alacritty.yml:
-      create: true
-      path: config/alacritty/alacritty.yml
-    ~/.config/autorandr:
-      create: true
-      path: config/autorandr
-    ~/.tmux.conf:
-      path: tmux.conf
-    ~/.config/polybar/config:
-      create: true
-      path: config/polybar/config
-    ~/.zsh:
-      create: true
-      path: zsh
-
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
