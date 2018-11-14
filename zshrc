@@ -5,6 +5,9 @@ export ZSH="$HOME/.dotfiles/oh-my-zsh"
 if [[ $TERM =~ xterm ]]; then
   # enable ZSH theme
   source /usr/share/powerlevel9k/powerlevel9k.zsh-theme
+  POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir vcs)
+  POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status background_jobs time)
+  POWERLEVEL9K_CONTEXT_TEMPLATE="%n"
 fi
 
 plugins=(
