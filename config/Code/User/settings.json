@@ -1,4 +1,5 @@
 {
     "terminal.integrated.fontFamily": "Hack",
-    "editor.fontFamily": "Hack"
+    "editor.fontFamily": "Hack",
+    "window.titleBarStyle": "custom"
 }
