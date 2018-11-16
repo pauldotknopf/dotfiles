@@ -37,3 +37,7 @@ function update-dev-image() {
   sudo darch stage upload pauldotknopf/darch-ubuntu-development:latest --force
   sudo darch stage clean
 }
+
+function code-root() {
+  sudo direnv exec $PWD /bin/bash -c "code --user-data-dir $HOME/.vscode-root $*"
+}
