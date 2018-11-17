@@ -38,8 +38,13 @@ function update-dev-image() {
   sudo darch stage clean
 }
 
+# Runs sudo with direnv loaded for the root user
+function sudod() {
+  sudo direnv exec $PWD /bin/bash -c "$*"
+}
+
 function code-root() {
-  sudo direnv exec $PWD /bin/bash -c "code --user-data-dir $HOME/.vscode-root $*"
+  sudod code --user-data-dir $HOME/.vscode-root $*
 }
 
 alias weather='curl -s wttr.in/bradenton' 
