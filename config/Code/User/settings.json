@@ -1,5 +1,6 @@
 {
     "terminal.integrated.fontFamily": "Hack",
     "editor.fontFamily": "Hack",
-    "window.titleBarStyle": "custom"
+    "window.titleBarStyle": "custom",
+    "workbench.colorTheme": "Visual Studio Light"
 }

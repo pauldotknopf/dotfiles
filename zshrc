@@ -41,3 +41,5 @@ function update-dev-image() {
 function code-root() {
   sudo direnv exec $PWD /bin/bash -c "code --user-data-dir $HOME/.vscode-root $*"
 }
+
+alias weather='curl -s wttr.in/bradenton' 
