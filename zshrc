@@ -48,3 +48,10 @@ function code-root() {
 }
 
 alias weather='curl -s wttr.in/bradenton' 
+
+function setup-dev-go() {
+  # Assumes you manually compiled go
+  # at ~/git/go/
+  sudo apt-get remove -y golang\*
+  sudo ln -s $HOME/git/go/bin/go /usr/bin/go
+}
