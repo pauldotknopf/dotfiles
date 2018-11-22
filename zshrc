@@ -55,3 +55,15 @@ function setup-dev-go() {
   sudo apt-get remove -y golang\*
   sudo ln -s $HOME/git/go/bin/go /usr/bin/go
 }
+
+function install-skopeo() {
+  echo "deb http://ppa.launchpad.net/projectatomic/ppa/ubuntu bionic main" | sudo tee /etc/apt/sources.list.d/projectatomic-ubuntu-ppa-cosmic.list
+  sudo apt-get update
+  sudo apt-get install skopeo 
+}
+
+function install-websocat() {
+  curl -Ls https://github.com/vi/websocat/releases/download/v1.2.0/websocat_1.2.0_amd64.deb > /tmp/websocat.deb
+  sudo gdebi -n /tmp/websocat.deb
+  rm /tmp/websocat.deb
+}
