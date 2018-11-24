@@ -3,4 +3,4 @@ use-system-font=false
 font='Hack 12'
 
 [org/gnome/shell]
-favorite-apps=['org.gnome.Nautilus.desktop', 'google-chrome.desktop', 'code.desktop', 'org.gnome.Terminal.desktop', 'gitkraken.desktop']
+favorite-apps=['org.gnome.Nautilus.desktop', 'google-chrome.desktop', 'code.desktop', 'jetbrains-rider.desktop', 'org.gnome.Terminal.desktop', 'gitkraken.desktop', 'DigiaQt-qtcreator-community.desktop']
