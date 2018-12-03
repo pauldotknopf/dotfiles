@@ -71,3 +71,13 @@ function install-websocat() {
   sudo gdebi -n /tmp/websocat.deb
   rm /tmp/websocat.deb
 }
+
+function install-ruby() {
+  rbenv install 2.5.3 -s
+}
+
+function post-install() {
+  install-ruby
+  # For multi-touch gestures
+  gem install fusuma
+}

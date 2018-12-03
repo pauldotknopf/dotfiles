@@ -8,14 +8,16 @@
 
 - link:
     ~/.rbenv: rbenv
+    ~/.rbenv/version: ruby-version
     ~/.rbenv/plugins/ruby-build: ruby-build
     ~/.gitconfig: gitconfig
     ~/.zshrc: zshrc
     ~/.config/Code/User/settings.json: config/Code/User/settings.json
+    ~/.config/autostart/fusuma.desktop: config/autostart/fusuma.desktop
+    ~/.config/fusuma/config.yml: config/fusuma/config.yml
     ~/.GoLand2018.2/config/goland64.vmoptions: GoLand2018.2/config/goland64.vmoptions
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
   - command: dconf load / < settings.dconf
     description: Installing dconf settings
-  - command: gem install fusuma
-    description: Installing fusuma
+    
