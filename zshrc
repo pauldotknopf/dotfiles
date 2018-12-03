@@ -2,6 +2,10 @@
 
 export ZSH="$HOME/.dotfiles/oh-my-zsh"
 
+export RBENV_VERSION=2.5.3
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+
 if [[ $TERM =~ xterm ]]; then
   # enable ZSH theme
   source /usr/share/powerlevel9k/powerlevel9k.zsh-theme

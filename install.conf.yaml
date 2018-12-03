@@ -7,6 +7,8 @@
         relink: true
 
 - link:
+    ~/.rbenv: rbenv
+    ~/.rbenv/plugins/ruby-build: ruby-build
     ~/.gitconfig: gitconfig
     ~/.zshrc: zshrc
     ~/.config/Code/User/settings.json: config/Code/User/settings.json
