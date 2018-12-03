@@ -17,3 +17,5 @@
   - [git submodule update --init --recursive, Installing submodules]
   - command: dconf load / < settings.dconf
     description: Installing dconf settings
+  - command: gem install fusuma
+    description: Installing fusuma
