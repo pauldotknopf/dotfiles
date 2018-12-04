@@ -73,6 +73,7 @@ function install-websocat() {
 }
 
 function install-ruby() {
+  sudo apt-get install -y libssl-dev libreadline-dev
   rbenv install 2.5.3 -s
 }
 
