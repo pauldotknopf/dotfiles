@@ -82,3 +82,5 @@ function post-install() {
   # For multi-touch gestures
   gem install fusuma
 }
+
+alias gitkraken='(gitkraken -p . > /dev/null 2>&1 &)'
