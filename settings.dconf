@@ -4,3 +4,20 @@ font='Hack 12'
 
 [org/gnome/shell]
 favorite-apps=['org.gnome.Nautilus.desktop', 'google-chrome.desktop', 'code.desktop', 'jetbrains-rider.desktop', 'org.gnome.Terminal.desktop', 'gitkraken.desktop', 'DigiaQt-qtcreator-community.desktop']
+
+[org/gnome/shell/extensions/dash-to-dock]
+dock-position='BOTTOM'
+
+[org/gnome/desktop/screensaver]
+color-shading-type='solid'
+picture-options='wallpaper'
+picture-uri='file:////usr/share/gnome-control-center/pixmaps/noise-texture-light.png'
+primary-color='#425265'
+secondary-color='#425265'
+
+[org/gnome/desktop/background]
+color-shading-type='solid'
+picture-options='wallpaper'
+picture-uri='file:////usr/share/gnome-control-center/pixmaps/noise-texture-light.png'
+primary-color='#425265'
+secondary-color='#425265'
