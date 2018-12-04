@@ -77,10 +77,8 @@ function install-ruby() {
   rbenv install 2.5.3 -s
 }
 
-function post-install() {
-  install-ruby
-  # For multi-touch gestures
-  gem install fusuma
-}
-
 alias gitkraken='(gitkraken -p . > /dev/null 2>&1 &)'
+
+function install-rider() {
+  $HOME/.dotfiles/scripts/install-rider.sh
+}
