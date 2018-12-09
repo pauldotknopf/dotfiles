@@ -82,3 +82,5 @@ alias gitkraken='(gitkraken -p . > /dev/null 2>&1 &)'
 function install-rider() {
   $HOME/.dotfiles/scripts/install-rider.sh
 }
+
+alias clipboard='xclip -sel clip'
