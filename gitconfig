@@ -18,6 +18,24 @@
     s   = status
     w   = instaweb --httpd=webrick              # Start web-based visualizer.
 
+    # List the remote brances
+
+    lrb = "!f() { \
+        remote="${1:-origin}"; \
+        git ls-remote --heads "$remote"; \
+    }; f"
+
+    # Undo last commits (by default it undoes the last commit).
+
+    ulc = "!f() { \
+        declare n=\"${1:-1}\"; \
+        git reset --soft \"HEAD~$n\"; \
+    }; f"
+
+[core]
+
+    abbrev = 7
+
 [user]
 
     email = pauldotknopf@gmail.com
