@@ -1,8 +1,76 @@
-# This is Git's per-user configuration file.
-[user]
-	email = pauldotknopf@gmail.com
-	name = Paul Knopf
+[alias]
+
+    a   = commit --amend
+    br  = branch
+    c   = commit
+    ca  = !git add -A && git commit             # Commit all changes.
+    co  = checkout
+    cp  = cherry-pick
+    d   = diff
+    dc  = diff --cached
+    f   = fetch
+    g   = log --graph --pretty=custom           # Show custom graph.
+    git = !exec git                             # Allow `$ git git git...`
+    l   = log --pretty=custom                   # Show custom log.
+    lc  = shortlog --email --numbered --summary # List contributors.
+    p   = push
+    r   = rebase
+    s   = status
+    w   = instaweb --httpd=webrick              # Start web-based visualizer.
+
+    # List the remote brances
+
+    lrb = "!f() { \
+        remote="${1:-origin}"; \
+        git ls-remote --heads "$remote"; \
+    }; f"
+
+    # Undo last commits (by default it undoes the last commit).
+
+    ulc = "!f() { \
+        declare n=\"${1:-1}\"; \
+        git reset --soft \"HEAD~$n\"; \
+    }; f"
+
 [core]
-	editor = nano
+
+    abbrev = 7
+
+[user]
+
+    email = pauldotknopf@gmail.com
+    name = Paul Knopf
+
+[core]
+
+    editor = nano
+
 [credential]
+
     helper = /usr/share/doc/git/contrib/credential/gnome-keyring/git-credential-gnome-keyring
+
+[color "status"]
+
+    added = green reverse
+    changed = yellow reverse
+    untracked = red reverse
+
+[color "diff"]
+
+    frag = magenta
+    meta = yellow
+
+    new = green
+    old = red
+
+    newMoved = cyan
+    oldMoved = blue
+
+[pretty]
+
+    custom = "%C(magenta)%h%C(red)%d %C(yellow)%ar %C(green)%s %C(yellow)[%an](%ae)"
+    #                     │        │            │            │             └─ author name
+    #                     │        │            │            └─ message
+    #                     │        │            └─ date (relative)
+    #                     │        └─ decorations (branch, heads or tags)
+    #                     └─ hash (abbreviated)
