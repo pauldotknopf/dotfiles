@@ -79,8 +79,18 @@ function install-ruby() {
 
 alias gitkraken='(gitkraken -p . > /dev/null 2>&1 &)'
 
+function rider() {
+  (bash -c "$HOME/apps/rider/JetBrains\ Rider-2018.2.3/bin/rider.sh $* > /dev/null 2>&1" &)
+}
+
 function install-rider() {
   $HOME/.dotfiles/scripts/install-rider.sh
 }
 
 alias clipboard='xclip -sel clip'
+
+function download-sample-video() {
+  if [ ! -e ~/sample-video.mp4 ]; then
+    curl -Ls "https://github.com/pauldotknopf/raspberry-pi-camera-source/releases/download/1.0/arch-echo-color-wheel.mp4" > ~/sample-video.mp4
+  fi
+}
