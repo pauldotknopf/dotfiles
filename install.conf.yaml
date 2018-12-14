@@ -12,6 +12,8 @@
     ~/.rbenv/plugins/ruby-build: ruby-build
     ~/.gitconfig: gitconfig
     ~/.zshrc: zshrc
+    ~/.zprofile: zprofile
+    ~/.profile: profile
     ~/.config/Code/User/settings.json: config/Code/User/settings.json
     ~/.config/autostart/fusuma.desktop: config/autostart/fusuma.desktop
     ~/.config/fusuma/config.yml: config/fusuma/config.yml

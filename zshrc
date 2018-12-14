@@ -94,3 +94,7 @@ function download-sample-video() {
     curl -Ls "https://github.com/pauldotknopf/raspberry-pi-camera-source/releases/download/1.0/arch-echo-color-wheel.mp4" > ~/sample-video.mp4
   fi
 }
+
+if [ -e $HOME/.zshrc.local ]; then
+  . $HOME/.zshrc.local
+fi
