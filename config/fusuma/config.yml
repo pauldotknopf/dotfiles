@@ -19,15 +19,6 @@ swipe:
       command: 'xdotool key super+a'
     down: 
       command: 'xdotool key super+s'
-pinch:
-  2:
-    in:
-      command: 'xdotool key ctrl+plus'
-      threshold: 0.1
-    out:
-      command: 'xdotool key ctrl+minus'
-      threshold: 0.1
-
 threshold:
   swipe: 1
   pinch: 1
