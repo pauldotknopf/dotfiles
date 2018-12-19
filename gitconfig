@@ -1,6 +1,7 @@
 [alias]
 
     a   = commit --amend
+    ara = commit --amend --reset-author --reuse-message HEAD
     br  = branch
     c   = commit
     ca  = !git add -A && git commit             # Commit all changes.
