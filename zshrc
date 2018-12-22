@@ -8,7 +8,7 @@ eval "$(rbenv init -)"
 
 if [[ $TERM =~ xterm ]]; then
   # enable ZSH theme
-  source /usr/share/powerlevel9k/powerlevel9k.zsh-theme
+  source $HOME/.dotfiles/powerlevel9k/powerlevel9k.zsh-theme
   POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(ssh context dir vcs)
   POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status background_jobs time)
   POWERLEVEL9K_CONTEXT_TEMPLATE="%n"
