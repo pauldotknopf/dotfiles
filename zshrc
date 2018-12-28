@@ -80,7 +80,7 @@ function install-ruby() {
 alias gitkraken='(gitkraken -p . > /dev/null 2>&1 &)'
 
 function rider() {
-  (bash -c "$HOME/apps/rider/JetBrains\ Rider-2018.3/bin/rider.sh $* > /dev/null 2>&1" &)
+  (bash -c "$HOME/apps/rider/JetBrains\ Rider-2018.3.1/bin/rider.sh $* > /dev/null 2>&1" &)
 }
 
 function install-rider() {
