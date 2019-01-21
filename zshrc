@@ -119,6 +119,8 @@ function open-db() {
   (sqlitebrowser $db_name > /dev/null 2>&1 &)
 }
 
+alias serve-content='python3 -m http.server 8000'
+
 if [ -e $HOME/.zshrc.local ]; then
   . $HOME/.zshrc.local
 fi
