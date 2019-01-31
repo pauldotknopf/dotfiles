@@ -22,6 +22,16 @@ source $ZSH/oh-my-zsh.sh
 
 export EDITOR=nano
 
+function install-boostnote() {
+  curl -Ls https://github.com/BoostIO/boost-releases/releases/download/v0.11.13/boostnote_0.11.13_amd64.deb > /tmp/boostnote.deb
+  sudo gdebi -n /tmp/boostnote.deb
+  rm /tmp/boostnote.deb
+}
+
+function sync-notes() {
+  (cd ~/Boostnote && git ca -m "Syncing notes..." && git push origin master)
+}
+
 function install-docker() {
   sudo rm -f /etc/docker/daemon.json
   sudo mkdir -p /etc/docker
@@ -120,6 +130,8 @@ function open-db() {
 }
 
 alias serve-content='python3 -m http.server 8000'
+
+
 
 if [ -e $HOME/.zshrc.local ]; then
   . $HOME/.zshrc.local

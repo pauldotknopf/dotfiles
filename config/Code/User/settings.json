@@ -3,5 +3,6 @@
     "editor.fontFamily": "Hack",
     "window.titleBarStyle": "custom",
     "workbench.colorTheme": "Visual Studio Light",
-    "bitbake.generateWorkingFolder": false
+    "bitbake.generateWorkingFolder": false,
+    "extensions.ignoreRecommendations": true
 }
