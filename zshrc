@@ -2,8 +2,8 @@
 
 export ZSH="$HOME/.dotfiles/oh-my-zsh"
 
-export RBENV_VERSION=2.5.3
-export PATH="$HOME/.rbenv/bin:$PATH"
+export RBENV_ROOT="$HOME/.dotfiles/rbenv"
+export PATH="$HOME/.dotfiles/rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
 export PATH="$HOME/.cargo/bin:$PATH"
