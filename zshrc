@@ -6,6 +6,8 @@ export RBENV_VERSION=2.5.3
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
+export PATH="$HOME/.cargo/bin:$PATH"
+
 if [[ $TERM =~ xterm ]]; then
   # enable ZSH theme
   source $HOME/.dotfiles/powerlevel9k/powerlevel9k.zsh-theme
@@ -21,12 +23,6 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 
 export EDITOR=nano
-
-function install-boostnote() {
-  curl -Ls https://github.com/BoostIO/boost-releases/releases/download/v0.11.13/boostnote_0.11.13_amd64.deb > /tmp/boostnote.deb
-  sudo gdebi -n /tmp/boostnote.deb
-  rm /tmp/boostnote.deb
-}
 
 function sync-notes() {
   (cd ~/Boostnote && git ca -m "Syncing notes..." && git push origin master)
