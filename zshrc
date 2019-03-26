@@ -4,9 +4,13 @@ export ZSH="$HOME/.dotfiles/oh-my-zsh"
 
 export RBENV_ROOT="$HOME/.dotfiles/rbenv"
 export PATH="$HOME/.dotfiles/rbenv/bin:$PATH"
+export PATH="$HOME/.dotfiles/ruby-build/bin:$PATH"
 eval "$(rbenv init -)"
 
 export PATH="$HOME/.cargo/bin:$PATH"
+
+export NPM_PACKAGES="${HOME}/.npm-packages"
+export PATH="$NPM_PACKAGES/bin:$PATH"
 
 if [[ $TERM =~ xterm ]]; then
   # enable ZSH theme
@@ -94,6 +98,10 @@ function rider() {
 
 function install-rider() {
   $HOME/.dotfiles/scripts/install-rider.sh
+}
+
+function install-rubymine() {
+  $HOME/.dotfiles/scripts/install-rubymine.sh
 }
 
 alias clipboard='xclip -sel clip'
