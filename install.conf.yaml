@@ -7,13 +7,11 @@
         relink: true
 
 - link:
-    ~/.rbenv: rbenv
-    ~/.rbenv/version: ruby-version
-    ~/.rbenv/plugins/ruby-build: ruby-build
     ~/.gitconfig: gitconfig
     ~/.zshrc: zshrc
     ~/.zprofile: zprofile
     ~/.profile: profile
+    ~/.npmrc: npmrc
     ~/.config/Code/User/settings.json: config/Code/User/settings.json
     ~/.config/autostart/fusuma.desktop: config/autostart/fusuma.desktop
     ~/.config/fusuma/config.yml: config/fusuma/config.yml
