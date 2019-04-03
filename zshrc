@@ -135,7 +135,9 @@ function open-db() {
 
 alias serve-content='python3 -m http.server 8000'
 
+alias drop-page-cache='sync && echo 3 | sudo tee /proc/sys/vm/drop_caches'
 
+export NODE_OPTIONS=--max_old_space_size=4096
 
 if [ -e $HOME/.zshrc.local ]; then
   . $HOME/.zshrc.local
