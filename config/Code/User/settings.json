@@ -4,5 +4,6 @@
     "window.titleBarStyle": "custom",
     "workbench.colorTheme": "Visual Studio Light",
     "bitbake.generateWorkingFolder": false,
-    "extensions.ignoreRecommendations": true
+    "extensions.ignoreRecommendations": true,
+    "update.mode": "none"
 }
