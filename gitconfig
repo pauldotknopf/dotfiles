@@ -45,7 +45,10 @@
 [core]
 
     editor = nano
-    askpass = /usr/bin/ksshaskpass
+
+[credential]
+
+    helper = /usr/share/doc/git/contrib/credential/gnome-keyring/git-credential-gnome-keyring
 
 [color "status"]
 
