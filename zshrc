@@ -1,10 +1,12 @@
 #!/usr/bin/env bash
 
-export ZSH="$HOME/.dotfiles/oh-my-zsh"
+export DOTFILES_DIR="$HOME/.dotfiles"
+export ZSH="$DOTFILES_DIR/oh-my-zsh"
+export ZSH_CUSTOM="$DOTFILES_DIR/zsh-config"
 
-export RBENV_ROOT="$HOME/.dotfiles/rbenv"
-export PATH="$HOME/.dotfiles/rbenv/bin:$PATH"
-export PATH="$HOME/.dotfiles/ruby-build/bin:$PATH"
+export RBENV_ROOT="$DOTFILES_DIR/rbenv"
+export PATH="$DOTFILES_DIR/rbenv/bin:$PATH"
+export PATH="$DOTFILES_DIR/ruby-build/bin:$PATH"
 eval "$(rbenv init -)"
 
 export PATH="$HOME/.cargo/bin:$PATH"
@@ -14,14 +16,14 @@ export PATH="$NPM_PACKAGES/bin:$PATH"
 
 if [[ $TERM =~ xterm ]]; then
   # enable ZSH theme
-  source $HOME/.dotfiles/powerlevel9k/powerlevel9k.zsh-theme
+  source $DOTFILES_DIR/powerlevel9k/powerlevel9k.zsh-theme
   POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(ssh context dir vcs)
   POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status background_jobs time)
   POWERLEVEL9K_CONTEXT_TEMPLATE="%n"
 fi
 
 plugins=(
-  git
+  git zsh-autosuggestions
 )
 
 source $ZSH/oh-my-zsh.sh
