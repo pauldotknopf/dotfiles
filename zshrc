@@ -23,7 +23,9 @@ if [[ $TERM =~ xterm ]]; then
 fi
 
 plugins=(
-  git zsh-autosuggestions
+  zsh-syntax-highlighting
+  git
+  zsh-autosuggestions
 )
 
 source $ZSH/oh-my-zsh.sh
