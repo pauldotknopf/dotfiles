@@ -1,0 +1,5 @@
+export RBENV_ROOT="$DOTFILES_DIR/rbenv"
+export PATH="$DOTFILES_DIR/rbenv/bin:$PATH"
+export PATH="$DOTFILES_DIR/ruby-build/bin:$PATH"
+eval "$(rbenv init -)"
+export TTTT="sdfsdf"

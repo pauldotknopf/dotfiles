@@ -4,10 +4,7 @@ export DOTFILES_DIR="$HOME/.dotfiles"
 export ZSH="$DOTFILES_DIR/oh-my-zsh"
 export ZSH_CUSTOM="$DOTFILES_DIR/zsh-config"
 
-export RBENV_ROOT="$DOTFILES_DIR/rbenv"
-export PATH="$DOTFILES_DIR/rbenv/bin:$PATH"
-export PATH="$DOTFILES_DIR/ruby-build/bin:$PATH"
-eval "$(rbenv init -)"
+
 
 export PATH="$HOME/.cargo/bin:$PATH"
 
@@ -26,6 +23,8 @@ plugins=(
   zsh-syntax-highlighting
   git
   zsh-autosuggestions
+  conversion-helpers
+  rbenv
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -146,27 +145,3 @@ export NODE_OPTIONS=--max_old_space_size=4096
 if [ -e $HOME/.zshrc.local ]; then
   . $HOME/.zshrc.local
 fi
-
-function dec-to-hex() {
-  echo "ibase=10;obase=16;$1" | bc
-}
-
-function dec-to-bin() {
-  echo "ibase=10;obase=2;$1" | bc
-}
-
-function hex-to-dec() {
-  echo "ibase=16;obase=A;$1" | bc
-}
-
-function hex-to-bin() {
-  echo "ibase=16;obase=2;$1" | bc
-}
-
-function bin-to-hex() {
-  echo "ibase=2;obase=10000;$1" | bc
-}
-
-function bin-to-dec() {
-  echo "ibase=2;obase=A;$1" | bc
-}
