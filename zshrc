@@ -20,11 +20,9 @@ if [[ $TERM =~ xterm ]]; then
 fi
 
 plugins=(
-  zsh-syntax-highlighting
   git
+  zsh-syntax-highlighting
   zsh-autosuggestions
-  conversion-helpers
-  rbenv
 )
 
 source $ZSH/oh-my-zsh.sh
