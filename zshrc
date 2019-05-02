@@ -83,11 +83,6 @@ function install-websocat() {
   rm /tmp/websocat.deb
 }
 
-function install-ruby() {
-  sudo apt-get install -y libssl-dev libreadline-dev
-  rbenv install 2.5.3 -s
-}
-
 alias gitkraken='(gitkraken -p . > /dev/null 2>&1 &)'
 
 function rider() {
