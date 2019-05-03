@@ -21,6 +21,10 @@ plugins=(
   git
   zsh-syntax-highlighting
   zsh-autosuggestions
+  colored-man-pages
+  command-not-found
+  copydir
+  copyfile
 )
 
 source $ZSH/oh-my-zsh.sh
