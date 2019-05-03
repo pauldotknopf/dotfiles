@@ -10,11 +10,11 @@ export NPM_PACKAGES="${HOME}/.npm-packages"
 export PATH="$NPM_PACKAGES/bin:$PATH"
 
 if [[ $TERM =~ xterm ]]; then
-  # enable ZSH theme
-  source $DOTFILES_DIR/powerlevel9k/powerlevel9k.zsh-theme
+  P9K_PROMPT_ON_NEWLINE=true
   P9K_LEFT_PROMPT_ELEMENTS=(context dir vcs)
   P9K_RIGHT_PROMPT_ELEMENTS=(status background_jobs time)
   P9K_CONTEXT_TEMPLATE="%n"
+  source $DOTFILES_DIR/powerlevel9k/powerlevel9k.zsh-theme
 fi
 
 plugins=(
