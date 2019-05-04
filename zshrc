@@ -9,6 +9,8 @@ export PATH="$HOME/.cargo/bin:$PATH"
 export NPM_PACKAGES="${HOME}/.npm-packages"
 export PATH="$NPM_PACKAGES/bin:$PATH"
 
+export PATH="$DOTFILES_DIR/utils:$PATH"
+
 if [[ $TERM =~ xterm ]]; then
   P9K_PROMPT_ON_NEWLINE=true
   P9K_LEFT_PROMPT_ELEMENTS=(context dir vcs)
@@ -73,7 +75,7 @@ alias gitkraken='(gitkraken -p . > /dev/null 2>&1 &)'
 function rider() {
   (
     trap - SIGINT
-    bash -c "$HOME/apps/rider/JetBrains\ Rider-2018.3.1/bin/rider.sh $* > /dev/null 2>&1" &
+    bash -c "$HOME/apps/rider/JetBrains\ Rider-2019.1.1/bin/rider.sh $* > /dev/null 2>&1" &
   )
 }
 
