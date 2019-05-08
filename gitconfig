@@ -16,7 +16,7 @@
     lc  = shortlog --email --numbered --summary # List contributors.
     p   = push
     r   = rebase
-    s   = status
+    s   = status -sb
     w   = instaweb --httpd=webrick              # Start web-based visualizer.
 
     # List the remote brances
