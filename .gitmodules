@@ -25,3 +25,6 @@
 [submodule "spaceship-prompt"]
 	path = spaceship-prompt
 	url = https://github.com/denysdovhan/spaceship-prompt.git
+[submodule "climate"]
+	path = climate
+	url = https://github.com/adtac/climate.git
