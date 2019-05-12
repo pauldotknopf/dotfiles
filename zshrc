@@ -11,13 +11,7 @@ export PATH="$NPM_PACKAGES/bin:$PATH"
 
 export PATH="$DOTFILES_DIR/utils:$PATH"
 
-if [[ $TERM =~ xterm ]]; then
-  P9K_PROMPT_ON_NEWLINE=true
-  P9K_LEFT_PROMPT_ELEMENTS=(context dir vcs)
-  P9K_RIGHT_PROMPT_ELEMENTS=(status background_jobs time)
-  P9K_CONTEXT_TEMPLATE="%n"
-  source $DOTFILES_DIR/powerlevel9k/powerlevel9k.zsh-theme
-fi
+ZSH_THEME="spaceship"
 
 plugins=(
   git
