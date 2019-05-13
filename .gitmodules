@@ -25,3 +25,6 @@
 [submodule "climate"]
 	path = 3rdparty/climate
 	url = https://github.com/adtac/climate.git
+[submodule "3rdparty/textmate-solarized"]
+	path = 3rdparty/textmate-solarized
+	url = https://github.com/deplorableword/textmate-solarized.git
