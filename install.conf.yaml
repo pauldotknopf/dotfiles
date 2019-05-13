@@ -12,6 +12,7 @@
     ~/.zprofile: zprofile
     ~/.profile: profile
     ~/.npmrc: npmrc
+    ~/.tmux.conf: tmux.conf
     ~/.config/Code/User/settings.json: config/Code/User/settings.json
     ~/.config/autostart/fusuma.desktop: config/autostart/fusuma.desktop
     ~/.config/fusuma/config.yml: config/fusuma/config.yml

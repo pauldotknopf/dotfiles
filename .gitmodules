@@ -1,14 +1,14 @@
 [submodule "dotbot"]
-	path = dotbot
+	path = 3rdparty/dotbot
 	url = https://github.com/anishathalye/dotbot
 [submodule "oh-my-zsh"]
-	path = oh-my-zsh
+	path = 3rdparty/oh-my-zsh
 	url = https://github.com/robbyrussell/oh-my-zsh.git
 [submodule "rbenv"]
-	path = rbenv
+	path = 3rdparty/rbenv
 	url = https://github.com/rbenv/rbenv.git
 [submodule "ruby-build"]
-	path = ruby-build
+	path = 3rdparty/ruby-build
 	url = https://github.com/rbenv/ruby-build.git
 [submodule "zsh-config/plugins/zsh-autosuggestions"]
 	path = zsh-config/plugins/zsh-autosuggestions
@@ -17,11 +17,11 @@
 	path = zsh-config/plugins/zsh-syntax-highlighting
 	url = https://github.com/zsh-users/zsh-syntax-highlighting.git
 [submodule "z"]
-	path = z
+	path = 3rdparty/z
 	url = https://github.com/rupa/z.git
 [submodule "spaceship-prompt"]
-	path = spaceship-prompt
+	path = 3rdparty/spaceship-prompt
 	url = https://github.com/denysdovhan/spaceship-prompt.git
 [submodule "climate"]
-	path = climate
+	path = 3rdparty/climate
 	url = https://github.com/adtac/climate.git

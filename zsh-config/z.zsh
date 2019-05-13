@@ -1,1 +1,1 @@
-. $DOTFILES_DIR/z/z.sh
+. $DOTFILES_DIR/3rdparty/z/z.sh

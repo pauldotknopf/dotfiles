@@ -1,1 +1,1 @@
-alias extract='$DOTFILES_DIR/climate/climate extract'
+alias extract='$DOTFILES_DIR/3rdparty/climate/climate extract'
