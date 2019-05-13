@@ -1,0 +1,1 @@
+alias rg='rg --hidden --smart-case --ignore-file "${DOTFILES_DIR}/rg/dot.ignore"'
