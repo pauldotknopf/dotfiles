@@ -24,4 +24,4 @@
   - command: dconf load / < settings.dconf
     description: Installing dconf settings
   - [bat cache --build]
-    
+  - [npm i -g add-gitignore]
