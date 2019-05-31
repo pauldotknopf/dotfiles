@@ -28,3 +28,6 @@
 [submodule "3rdparty/textmate-solarized"]
 	path = 3rdparty/textmate-solarized
 	url = https://github.com/deplorableword/textmate-solarized.git
+[submodule "3rdparty/git-open"]
+	path = 3rdparty/git-open
+	url = https://github.com/paulirish/git-open.git
