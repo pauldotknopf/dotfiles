@@ -31,3 +31,6 @@
 [submodule "3rdparty/git-open"]
 	path = 3rdparty/git-open
 	url = https://github.com/paulirish/git-open.git
+[submodule "3rdparty/zsh-histdb"]
+	path = 3rdparty/zsh-histdb
+	url = https://github.com/larkery/zsh-histdb.git
