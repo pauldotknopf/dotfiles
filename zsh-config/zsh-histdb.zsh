@@ -13,3 +13,6 @@ order by places.dir != '$(sql_escape $PWD)', count(*) desc limit 1"
 }
 
 ZSH_AUTOSUGGEST_STRATEGY=histdb_top
+
+source $DOTFILES_DIR/3rdparty/zsh-histdb/histdb-interactive.zsh
+bindkey '^r' _histdb-isearch
