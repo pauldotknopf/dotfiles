@@ -16,3 +16,5 @@ ZSH_AUTOSUGGEST_STRATEGY=histdb_top
 
 source $DOTFILES_DIR/3rdparty/zsh-histdb/histdb-interactive.zsh
 bindkey '^r' _histdb-isearch
+
+HISTORY_IGNORE="(cd*|ls)"
