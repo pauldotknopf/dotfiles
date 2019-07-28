@@ -24,6 +24,7 @@ plugins=(
   copydir
   copyfile
   tmux
+  thefuck
 )
 
 source $ZSH/oh-my-zsh.sh
