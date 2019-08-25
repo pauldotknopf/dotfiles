@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+set -e
 
 rm -rf ~/apps/rider
 mkdir -p ~/apps/rider

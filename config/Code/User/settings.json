@@ -27,5 +27,6 @@
     "terminal.integrated.fontSize": 16,
     "bitbake.generateWorkingFolder": false,
     "extensions.ignoreRecommendations": true,
-    "update.mode": "none"
+    "update.mode": "none",
+    "telemetry.enableTelemetry": false
 }

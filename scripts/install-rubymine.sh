@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+set -e
 
 rm -rf ~/apps/rubymine
 mkdir -p ~/apps/rubymine
