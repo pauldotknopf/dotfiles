@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=JetBrains CLion
+Icon=/home/pknopf/apps/clion/current/bin/clion.png
+Exec="/home/pknopf/apps/clion/current/bin/clion.sh" %f
+Comment=The Drive to Develop
+Categories=Development;IDE;
+Terminal=false
+StartupWMClass=jetbrains-clion

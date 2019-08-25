@@ -19,6 +19,9 @@
     ~/.GoLand2018.2/config/goland64.vmoptions: GoLand2018.2/config/goland64.vmoptions
     ~/.config/bat/themes/Solarized (dark).tmTheme: 3rdparty/textmate-solarized/Solarized (dark).tmTheme
     ~/.config/bat/config: bat/config
+    ~/.local/share/applications/jetbrains-clion.desktop: local/share/applications/jetbrains-clion.desktop
+    ~/.local/share/applications/jetbrains-datagrip.desktop: local/share/applications/jetbrains-datagrip.desktop
+    ~/.local/share/applications/jetbrains-rider.desktop: local/share/applications/jetbrains-rider.desktop
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
   - command: dconf load / < settings.dconf
