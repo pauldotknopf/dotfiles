@@ -28,5 +28,14 @@
     "bitbake.generateWorkingFolder": false,
     "extensions.ignoreRecommendations": true,
     "update.mode": "none",
-    "telemetry.enableTelemetry": false
+    "telemetry.enableTelemetry": false,
+    "rust.rustup": {
+        "toolchain": "stable-x86_64-unknown-linux-gnu",
+        "nightlyToolchain": "nightly-x86_64-unknown-linux-gnu"
+    },
+    "rust.mode": "rls",
+    "rust.rls": {
+        "useRustfmt": true
+    },
+    "window.zoomLevel": 1
 }
