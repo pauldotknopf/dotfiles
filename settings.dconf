@@ -25,3 +25,7 @@ picture-options='wallpaper'
 picture-uri='file:////usr/share/gnome-control-center/pixmaps/noise-texture-light.png'
 primary-color='#425265'
 secondary-color='#425265'
+
+[org/gnome/desktop/wm/keybindings]
+switch-applications=@as []
+switch-windows=['<Super>Tab', '<Alt>Tab']
