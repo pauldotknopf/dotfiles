@@ -1,7 +1,7 @@
 [Desktop Entry]
 Version=1.0
 Type=Application
-Name=JetBrains CLion
+Name=JetBrains Rider
 Icon=/home/pknopf/apps/rider/current/bin/rider.png
 Exec="/home/pknopf/apps/rider/current/bin/rider.sh" %f
 Comment=The Drive to Develop

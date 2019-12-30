@@ -3,5 +3,5 @@ set -e
 
 rm -rf ~/apps/rider
 mkdir -p ~/apps/rider
-curl -L https://download.jetbrains.com/rider/JetBrains.Rider-2019.1.3.tar.gz | tar -xz -C ~/apps/rider
+curl -L https://download.jetbrains.com/rider/JetBrains.Rider-2019.2.3.tar.gz | tar -xz -C ~/apps/rider
 mv ~/apps/rider/* ~/apps/rider/current
