@@ -106,7 +106,6 @@ function download-sample-video() {
 }
 
 function open-db() {
-  echo "testtt"
   local db_name="$1"
 
   if [ -z "$db_name" ]; then
