@@ -1,0 +1,1 @@
+alias weather='curl -s wttr.in/bradenton' 
