@@ -1,0 +1,1 @@
+alias xopen='xdg-open'
