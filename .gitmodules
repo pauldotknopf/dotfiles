@@ -34,3 +34,6 @@
 [submodule "3rdparty/zsh-histdb"]
 	path = 3rdparty/zsh-histdb
 	url = https://github.com/larkery/zsh-histdb.git
+[submodule "zsh-config/plugins/zsh-auto-notify"]
+	path = zsh-config/plugins/auto-notify
+	url = https://github.com/MichaelAquilina/zsh-auto-notify.git

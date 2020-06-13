@@ -25,6 +25,7 @@ plugins=(
   copyfile
   tmux
   thefuck
+  auto-notify
 )
 
 source $ZSH/oh-my-zsh.sh
