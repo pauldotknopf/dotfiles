@@ -132,6 +132,8 @@ alias drop-page-cache='sync && echo 3 | sudo tee /proc/sys/vm/drop_caches'
 
 export NODE_OPTIONS=--max_old_space_size=4096
 
+source $HOME/.config/broot/launcher/bash/br
+
 if [ -e $HOME/.zshrc.local ]; then
   . $HOME/.zshrc.local
 fi
