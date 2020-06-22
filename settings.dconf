@@ -29,3 +29,6 @@ secondary-color='#425265'
 [org/gnome/desktop/wm/keybindings]
 switch-applications=@as []
 switch-windows=['<Super>Tab', '<Alt>Tab']
+
+[org/gnome/desktop/interface]
+show-battery-percentage=true
