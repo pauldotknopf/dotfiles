@@ -5,6 +5,7 @@ apt-get install -y zsh \
 	fonts-powerline \
 	direnv \
 	sqlite3 \
-	thefuck
+	thefuck \
+        libnotify-bin
 
 chsh -s /bin/zsh
