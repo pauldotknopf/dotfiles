@@ -15,6 +15,7 @@
     l   = log --pretty=custom --graph           # Show custom log.
     lc  = shortlog --email --numbered --summary # List contributors.
     p   = push
+    po  = push origin
     r   = rebase
     s   = status -sb
     w   = instaweb --httpd=webrick              # Start web-based visualizer.
