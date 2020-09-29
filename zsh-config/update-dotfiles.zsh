@@ -1,0 +1,1 @@
+alias update-dotfiles='bash -c "cd ~/.dotfiles && git pull origin master && git submodule update --init && ./install"'
