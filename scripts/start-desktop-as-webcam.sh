@@ -1,9 +1,11 @@
 #!/usr/bin/env bash
-set -x
+set -ex
+
+sudo apt-get install -y v4l2loopback-dkms
 
 sudo modprobe v4l2loopback \
     video_nr=10 \
-    card_label="OBS Video Source" \
+    card_label="Desktop Video Source" \
     exclusive_caps=1
 
 DISPLAY_RES=`xrandr | grep \* | awk '{print $1}'`
