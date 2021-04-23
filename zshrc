@@ -8,6 +8,9 @@ export PATH="$HOME/.cargo/bin:$PATH"
 
 export PATH="$DOTFILES_DIR/utils:$PATH"
 
+export PATH="$HOME/flutter/bin:$PATH"
+
+
 ZSH_THEME="spaceship"
 # See this: https://github.com/denysdovhan/spaceship-prompt/issues/167
 SPACESHIP_NODE_SHOW="false"
