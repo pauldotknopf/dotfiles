@@ -24,6 +24,7 @@
     ~/.local/share/applications/jetbrains-clion.desktop: local/share/applications/jetbrains-clion.desktop
     ~/.local/share/applications/jetbrains-datagrip.desktop: local/share/applications/jetbrains-datagrip.desktop
     ~/.local/share/applications/jetbrains-rider.desktop: local/share/applications/jetbrains-rider.desktop
+    ~/.config/redshift.conf: config/redshift.conf
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
   - command: dconf load / < settings.dconf
