@@ -13,3 +13,19 @@ function install-clion() {
 function install-virtualbox() {
   $HOME/.dotfiles/scripts/install-virtualbox.sh
 }
+
+function install-adruino() {
+  $HOME/.dotfiles/scripts/install-arduino.sh
+}
+
+function install-arduino-cli() {
+  curl -fsSL https://raw.githubusercontent.com/arduino/arduino-cli/master/install.sh | BINDIR=$HOME/bin sh
+}
+
+function install-golang() {
+  $HOME/.dotfiles/scripts/install-golang.sh
+}
+
+function update-xlights() {
+  $HOME/.dotfiles/scripts/update-xlights.sh
+}

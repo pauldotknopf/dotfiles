@@ -81,3 +81,6 @@
 	process = git-lfs filter-process
 	required = true
 	clean = git-lfs clean -- %f
+
+[url "git@ssh.dev.azure.com:v3/NovantaMIS/"]
+  insteadOf = https://dev.azure.com/NovantaMIS/

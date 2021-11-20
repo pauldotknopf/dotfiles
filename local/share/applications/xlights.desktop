@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=xLights
+Exec="/home/pknopf/apps/xlights/xLights-2021.38-x86_64.AppImage" %f
+Comment=xLights
+Categories=Development;IDE;
+Terminal=false
