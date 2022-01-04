@@ -6,6 +6,7 @@ apt-get install -y zsh \
 	direnv \
 	sqlite3 \
 	thefuck \
-        libnotify-bin
+        libnotify-bin \
+        python3-distutils
 
 chsh -s /bin/zsh
