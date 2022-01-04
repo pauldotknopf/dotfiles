@@ -7,6 +7,7 @@ apt-get install -y zsh \
 	sqlite3 \
 	thefuck \
         libnotify-bin \
-        python3-distutils
+        python3-distutils \
+        nodejs npm
 
 chsh -s /bin/zsh
