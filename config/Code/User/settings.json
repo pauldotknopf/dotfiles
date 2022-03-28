@@ -42,5 +42,6 @@
     "arduino.path": "/home/pknopf/apps/arduino/arduino-1.8.16",
     "git.terminalAuthentication": false,
     "python.defaultInterpreterPath": "python3",
-    "window.zoomLevel": 1
+    "window.zoomLevel": 1,
+    "redhat.telemetry.enabled": false
 }
