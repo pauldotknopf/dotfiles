@@ -43,5 +43,8 @@
     "git.terminalAuthentication": false,
     "python.defaultInterpreterPath": "python3",
     "window.zoomLevel": 1,
-    "redhat.telemetry.enabled": false
+    "redhat.telemetry.enabled": false,
+    "explorer.confirmDelete": false,
+    "editor.wordWrap": "on",
+    "debug.onTaskErrors": "abort"
 }

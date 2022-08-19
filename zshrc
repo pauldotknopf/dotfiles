@@ -33,3 +33,5 @@ source $ZSH/oh-my-zsh.sh
 if [ -e $HOME/.zshrc.local ]; then
   . $HOME/.zshrc.local
 fi
+
+export QSYS_ROOTDIR="/home/pknopf/q_l_211/quartus/sopc_builder/bin"

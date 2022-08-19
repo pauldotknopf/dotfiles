@@ -29,3 +29,7 @@ function install-golang() {
 function update-xlights() {
   $HOME/.dotfiles/scripts/update-xlights.sh
 }
+
+function install-dotnet() {
+  $HOME/.dotfiles/scripts/install-dotnet.sh
+}
