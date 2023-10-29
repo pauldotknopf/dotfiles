@@ -47,10 +47,6 @@
     editor = nano
 	pager = diff-so-fancy | less --tabs=4 -RFX
 
-[credential]
-
-	helper = /usr/share/doc/git/contrib/credential/libsecret/git-credential-libsecret
-
 [color "status"]
 
     added = green reverse
@@ -76,11 +72,9 @@
     #                     │        │            └─ date (relative)
     #                     │        └─ decorations (branch, heads or tags)
     #                     └─ hash (abbreviated)
+
 [filter "lfs"]
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
 	clean = git-lfs clean -- %f
-
-[url "git@ssh.dev.azure.com:v3/NovantaMIS/"]
-  insteadOf = https://dev.azure.com/NovantaMIS/
