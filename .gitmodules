@@ -37,3 +37,6 @@
 [submodule "zsh-config/plugins/zsh-auto-notify"]
 	path = zsh-config/plugins/auto-notify
 	url = https://github.com/MichaelAquilina/zsh-auto-notify.git
+[submodule "3rdparty/diff-so-fancy"]
+	path = 3rdparty/diff-so-fancy
+	url = https://github.com/so-fancy/diff-so-fancy.git
