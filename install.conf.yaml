@@ -13,7 +13,6 @@
     ~/.profile: profile
     ~/.npmrc: npmrc
     ~/.tmux.conf: tmux.conf
-    ~/.spacemacs: spacemacs
     ~/.config/Code/User/settings.json: config/Code/User/settings.json
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
