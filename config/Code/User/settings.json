@@ -46,5 +46,6 @@
     "redhat.telemetry.enabled": false,
     "explorer.confirmDelete": false,
     "editor.wordWrap": "on",
-    "debug.onTaskErrors": "abort"
+    "debug.onTaskErrors": "abort",
+    "window.menuBarVisibility": "compact"
 }
