@@ -1,0 +1,55 @@
+[user]
+	email = pauldotknopf@gmail.com
+	name = Paul Knopf
+[credential]
+	helper = /usr/local/share/gcm-core/git-credential-manager
+[credential "https://dev.azure.com"]
+	useHttpPath = true
+[alias]
+    a   = commit --amend
+    ara = commit --amend --reset-author --reuse-message HEAD
+    br  = branch
+    c   = commit
+    ca  = !git add -A && git commit             # Commit all changes.
+    co  = checkout
+    cp  = cherry-pick
+    d   = diff -w
+    dc  = diff -w --cached
+    f   = fetch
+    g   = log --graph --pretty=custom           # Show custom graph.
+    git = !exec git                             # Allow `$ git git git...`
+    l   = log --pretty=custom --graph           # Show custom log.
+    lc  = shortlog --email --numbered --summary # List contributors.
+    p   = push
+    po  = push origin
+    r   = rebase
+    s   = status -sb
+    w   = instaweb --httpd=webrick              # Start web-based visualizer.
+
+    # List the remote brances
+
+    lrb = "!f() { \
+        remote="${1:-origin}"; \
+        git ls-remote --heads "$remote"; \
+    }; f"
+
+    # Undo last commits (by default it undoes the last commit).
+
+    ulc = "!f() { \
+        declare n=\"${1:-1}\"; \
+        git reset --soft \"HEAD~$n\"; \
+    }; f"
+[core]
+    abbrev = 7
+    editor = nano
+[color "status"]
+    added = green reverse
+    changed = yellow reverse
+    untracked = red reverse
+[color "diff"]
+    frag = magenta
+    meta = yellow
+    new = green
+    old = red
+    newMoved = cyan
+    oldMoved = blue
