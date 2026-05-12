@@ -1,0 +1,7 @@
+packages:
+  darwin:
+    brews:
+    - 'chezmoi'
+    casks:
+    - 'git-credential-manager'
+    - 'rider'
