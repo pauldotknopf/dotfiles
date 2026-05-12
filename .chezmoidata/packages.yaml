@@ -5,3 +5,4 @@ packages:
     casks:
     - 'git-credential-manager'
     - 'rider'
+    - 'ghostty'
