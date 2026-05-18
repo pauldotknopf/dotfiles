@@ -2,6 +2,7 @@ packages:
   darwin:
     brews:
     - 'chezmoi'
+    - 'temporal'
     casks:
     - 'git-credential-manager'
     - 'rider'
