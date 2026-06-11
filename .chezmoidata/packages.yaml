@@ -3,7 +3,9 @@ packages:
     brews:
     - 'chezmoi'
     - 'temporal'
+    - 'azure-cli'
     casks:
     - 'git-credential-manager'
     - 'rider'
     - 'ghostty'
+    - 'claude-code'
