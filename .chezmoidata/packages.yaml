@@ -8,10 +8,12 @@ packages:
     - 'ollama'
     - 'htop'
     - 'telnet'
+    - 'ollama'
+    - 'portaudio'
+    - 'llama.cpp'
     casks:
     - 'google-chrome'
     - 'git-credential-manager'
-    - 'rider'
     - 'ghostty'
     - 'claude-code'
     - 'claude'

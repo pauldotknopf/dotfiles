@@ -1,10 +1,6 @@
 [user]
 	email = pauldotknopf@gmail.com
 	name = Paul Knopf
-[credential]
-	helper = /usr/local/share/gcm-core/git-credential-manager
-[credential "https://dev.azure.com"]
-	useHttpPath = true
 [alias]
     a   = commit --amend
     ara = commit --amend --reset-author --reuse-message HEAD
@@ -53,3 +49,10 @@
     old = red
     newMoved = cyan
     oldMoved = blue
+[push]
+	autoSetupRemote = true
+[credential]
+	helper = 
+	helper = /usr/local/share/gcm-core/git-credential-manager
+[credential "https://dev.azure.com"]
+	useHttpPath = true
